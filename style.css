@@ -98,15 +98,6 @@
     text-align: left;
 
 }
-.col-sm-1 {
-    font-family: PT Serif;
-    font-size: 14px;
-    font-style: normal;
-    font-weight: 400;
-    letter-spacing: 0px;
-    text-align: left;
-
-}
 /* =================================================== Header bg ========================== */
 .img-BGheader {
     width: 100%;
@@ -148,30 +139,7 @@
 }
 
 /* =================================================================  Main part  ==================================================================*/
-.main{
-    margin-top: 60px;
-}
-.container{
-}
-.row {
-
-} 
 /* ----------------1 row --------------- */
-.left {
-}
-.middlte{
-}
-.right{
-    text-align: center;
-    width: 70%;
-    padding: 0px 0px 0px 0px;
-}
-.first-row-btn {
-    border: 1px solid #E5E5E5;
-    box-sizing: border-box;
-    width: 270px;
-    height: 50px;
-}
 
 /* footter */
 /* picktures */
@@ -182,63 +150,9 @@
 
 /* ================2 row =============== */
 
-/* ============== left part ============= */
 
 
-
-/* bigphoto */
-.bigpart {
-    width: 104%;
-    margin-left: -15px;
-}
-
-.rightpart-big-photo {
-    margin-left: -20px;
-}
-.bigpart__bigphoto{
-    margin-top: -190px;
-}
-.bigpart__leftcard {
-    padding-top: 20px;
-}
-.longtext {
-    line-height: 24px;
-}
-/* row after big photo */
-
-.pinterest-p{
-
-}
-/* Button social */
-.title-author__Social-media {
-    width: 105%;
-}
-
-/*  Button tags */
-.title-author-tags{
-    width: 105%;
-}
-
-
-/* lower parts */
-/* link */
-.instlink {
-    margin-top: 100px;
-}
-/* rest */
-/* footter */
-.footerphoto{
-    width: 120%;
-}
-.partphotos {
-    margin-top: 40px;
-}
-/* rest */
-
-/* footer menu */   
-/*  footer social */
-.container-for-soc{
-}
+/* ============== fotter social ============= */
 .footer__social{
     margin-top: 30px;
     display: flex;
