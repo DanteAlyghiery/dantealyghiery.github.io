@@ -115,9 +115,11 @@
     position: relative;
 }
 .header-block {
-    position: absolute;
-    top:200px ;
-    left:100px ;
+    display: flex;
+    align-items: flex-end;
+    background-image: url("img/header/Yourimageshere.png");
+    width: 100vw;
+    height: 80vh;
 }
 .header-block__Vheicle{
     font-style: normal;
@@ -133,7 +135,6 @@
     font-weight: bold;
     font-size: 40px;
     line-height: 50px;
-    width: 58%;
     color: #FFFFFF;
     margin-bottom: 20px;
 }
@@ -235,11 +236,6 @@
 /* rest */
 
 /* footer menu */   
-.collapse {
-    margin: 60px 0px 0px 50px;
-    display: flex;
-    justify-content: center;
-}
 /*  footer social */
 .container-for-soc{
 }
