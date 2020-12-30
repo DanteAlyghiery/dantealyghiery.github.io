@@ -140,17 +140,25 @@
 
 /* =================================================================  Main part  ==================================================================*/
 /* ----------------1 row --------------- */
+.main-main-block__boxes {
+    margin-top: 30px;
+}
 
-/* footter */
+/*                     right block            */
+.main__right-block {
+    margin-top: 30px;
+}
+/* main__right-block-cards */
+.main__right-block-cards {
+}
+/* all right buttons */
+.title-buttom {
+
+}
 /* picktures */
 .conntent-bottom__picktures{
     width: 100%;
 }
-/*  */
-
-/* ================2 row =============== */
-
-
 
 /* ============== fotter social ============= */
 .footer__social{
