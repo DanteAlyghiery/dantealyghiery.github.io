@@ -52,12 +52,16 @@
 }
 .bg-soc-m {
    background-color: #F8F9FA;
-   width: 85px;
-   height: 80px;
-   text-align: center;
+   width: 78px;
+   height: 78px;
 }
 .bg-tw{
     background-color: #C9A96E;
+}
+.bg-teg {
+    background-color: #F8F9FA;
+    width: 77px;
+    margin: 15px 0px 10px 0px;
 }
 /* ========================================================================================================================= */
 /* weight */
@@ -84,15 +88,7 @@
     background-color: #F2F2F2;
     line-height: 80px;
 }
-.row {
 
-}
-.col-sm-7 {
-.header__menu-Logo-menu {
-    display: flex;
-    justify-content: space-between;
-}
-} 
 .navbar-brand {
     font-family: PT Serif;
     font-size: 25px;
@@ -114,12 +110,18 @@
 /* =================================================== Header bg ========================== */
 .img-BGheader {
     width: 100%;
+    height: 100%;
+    top: 0px;
+    left: 0px;
     position: relative;
 }
 .header-block {
     position: absolute;
-    top:700px;
-    left:580px;
+    top: ;
+    left: ;
+    display: flex;
+    justify-content: start;
+
 }
 .header-block__Vheicle{
     font-style: normal;
@@ -136,7 +138,6 @@
     font-size: 40px;
     line-height: 50px;
     width: 58%;
-/* or 125% */
     color: #FFFFFF;
     margin-bottom: 20px;
 }
@@ -148,6 +149,7 @@
     line-height: 19px;
     color: #FFFFFF;
 }
+
 /* =================================================================  Main part  ==================================================================*/
 .main{
     margin-top: 60px;
@@ -161,7 +163,6 @@
 .left {
 }
 .middlte{
-    margin-right: ;
 }
 .right{
     text-align: center;
@@ -173,7 +174,6 @@
     box-sizing: border-box;
     width: 270px;
     height: 50px;
-
 }
 
 /* footter */
@@ -190,20 +190,39 @@
 
 
 /* bigphoto */
+.bigpart {
+    width: 104%;
+    margin-left: -15px;
+}
+
+.rightpart-big-photo {
+    margin-left: -20px;
+}
 .bigpart__bigphoto{
     margin-top: -190px;
 }
 .bigpart__leftcard {
-    padding-top: 30px;
+    padding-top: 20px;
 }
 .longtext {
     line-height: 24px;
 }
 /* row after big photo */
+
 .pinterest-p{
-    width: 100px;
-    height: 60px;
+
 }
+/* Button social */
+.title-author__Social-media {
+    width: 105%;
+}
+
+/*  Button tags */
+.title-author-tags{
+    width: 105%;
+}
+
+
 /* lower parts */
 /* link */
 .instlink {
@@ -255,4 +274,13 @@
     height: 30px;
     border-radius: 50% ;
     padding: 8px;
+}
+
+.social-messengers__twiter {
+    color: #fffff;
+}
+
+/* hover for social */
+.social-messengers:hover {
+    background-color: aqua;
 }
