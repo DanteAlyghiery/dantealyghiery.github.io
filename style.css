@@ -47,6 +47,13 @@
 .c-999 {
     color: #999999;
 }
+.c-b1 {
+    color: #B1B1B1;
+}
+.c-under-photo {
+    color:#C9A96E;
+    ;
+}
 .c-17 {
     color: #171717;
 }
@@ -148,12 +155,29 @@
 .main__right-block {
     margin-top: 30px;
 }
+
+.under-card-text {   
+
+}
 /* main__right-block-cards */
+/* hover for read more */
+.Continue-Reading:hover {
+    background-color:gray;
+}
 .main__right-block-cards {
 }
-/* all right buttons */
-.title-buttom {
 
+/* all right buttons */
+.title-button {
+    margin:70px 0px 20px 0px;
+}
+
+.title-buttom-AboutThe {
+    margin-bottom: 20px;
+}
+
+.title-buttom-categories {
+    /* чоиу не відкликається? */
 }
 /* picktures */
 .conntent-bottom__picktures{
