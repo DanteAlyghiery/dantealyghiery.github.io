@@ -161,7 +161,6 @@
 }
 
 .under-card-text {   
-
 }
 /* main__right-block-cards */
 /* hover for read more */
@@ -184,6 +183,9 @@
     /* чоиу не відкликається? */
 }
 /* picktures */
+.partphotos__all{
+    width: ;
+}
 .conntent-bottom__picktures{
     width: 100%;
 }
@@ -195,6 +197,14 @@
     justify-content: center;
 }
 .social-messengers__FB{
+    border: solid 1px #E5E5E5;
+    width: 30px;
+    height: 30px;
+    border-radius: 50% ;
+    padding: 9px;
+}
+
+.social-messengers__twiter {
     border: solid 1px #E5E5E5;
     width: 30px;
     height: 30px;
@@ -217,7 +227,20 @@
     border-radius: 50% ;
     padding: 8px;
 }
-
+.social-messengers__Be {
+    border: solid 1px #E5E5E5;
+    width: 30px;
+    height: 30px;
+    border-radius: 50% ;
+    padding: 9px;
+}
+.social-messengers__instagrame {
+    border: solid 1px #E5E5E5;
+    width: 30px;
+    height: 30px;
+    border-radius: 50% ;
+    padding: 9px;
+}
 .social-messengers__twiter {
     color: #fffff;
 }
