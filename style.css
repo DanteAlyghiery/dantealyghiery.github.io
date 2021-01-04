@@ -62,9 +62,7 @@
    width: 78px;
    height: 78px;
 }
-.bg-tw{
-    background-color: #C9A96E;
-}
+
 .bg-teg {
     background-color: #F8F9FA;
     width: 77px;
@@ -186,8 +184,8 @@
 .partphotos__all{
     width: ;
 }
-.conntent-bottom__picktures{
-    width: 100%;
+.partphotos{
+    overflow-x: scroll;
 }
 
 /* ============== fotter social ============= */
@@ -210,6 +208,7 @@
     height: 30px;
     border-radius: 50% ;
     padding: 9px;
+    color: gray;
 }
 
 .social-messengers__paintest {
@@ -247,5 +246,5 @@
 
 /* hover for social */
 .social-messengers:hover {
-    background-color: aqua;
+    background-color: #C9A96E;
 }
